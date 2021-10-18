@@ -15,7 +15,7 @@ public class HomeWork1 {
    @BeforeMethod
     public void preCondition(){
     wd=new ChromeDriver();
-    wd.get("https://contacts-app.tobbymarshall815.vercel.app/login");
+    wd.navigate.to("https://contacts-app.tobbymarshall815.vercel.app/login");
    }
 
     @Test
